@@ -198,20 +198,28 @@
 </section>
 <!-- End image display -->
 
-  <!-- Image display side by side using Bulma columns -->
+  <!-- Image display side by side with text below -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <!-- Images side by side -->
       <div class="columns is-centered">
         <!-- Seventh image -->
         <div class="column is-half">
-          <img src="static/images/table2.png" alt="Vision Dynamics Profiler architecture" style="width: 100%; height: auto; display: block; margin: 0 auto;"/>
+          <img src="static/images/table2.png" alt="Ablation study results" style="width: 350px; height: auto; display: block; margin: 0 auto;"/>
         </div>
 
         <!-- Eighth image -->
         <div class="column is-half">
-          <img src="static/images/expf.png" alt="Vision Dynamics Profiler architecture" style="width: 100%; height: auto; display: block; margin: 0 auto;"/>
+          <img src="static/images/expf.png" alt="Task success rates" style="width: 350px; height: auto; display: block; margin: 0 auto;"/>
         </div>
+      </div>
+
+      <!-- Text below the images -->
+      <div class="has-text-centered" style="max-width: 800px; margin: 20px auto;">
+        <p style="text-align: justify; font-size: 14px; line-height: 1.6;">
+          We studied the impact of removing the domain augmentation <strong>G</strong>, the SFN component <strong>SFN</strong>, and the multi-scale inter-frame attention mechanism <strong>f<sub>a</sub></strong> on robot task success rates. The error bars indicate the standard deviation. Each variant of H2B was trained with an equal number of videos for six tasks, including three target tasks.
+        </p>
       </div>
     </div>
   </div>
