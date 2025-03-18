@@ -145,19 +145,19 @@
   <div class="hero-body">
     <div class="container">
       <!-- First image -->
-      <div>
+      <div class="mb-6">
         <img src="static/images/Introduction.png" alt="Human demonstration and robot learning"/>
-        <h2 class="subtitle has-text-centered" style="text-align: justify;">
+        <p class="subtitle has-text-centered" style="text-align: justify; max-width: 800px; margin: 0 auto;">
           Left: A human demonstration is given (e.g., closing a drawer). Right: The robot learns to deduce the task through its interactions with the environment by executing actions and recording observations. H2B evaluates each sequence of observations based on its similarity to the human demonstration and provides reward on the robot’s performance, guiding it to accomplish the task like the human.
-        </h2>
+        </p>
       </div>
 
       <!-- Second image -->
-      <div>
+      <div class="mb-6">
         <img src="static/images/Architecture.png" alt="Vision Dynamics Profiler architecture"/>
-        <h2 class="subtitle has-text-centered" style="text-align: justify;">
+        <p class="subtitle has-text-centered" style="text-align: justify; max-width: 800px; margin: 0 auto;">
           The Vision Dynamics Profiler (VDP) takes conditionally augmented video frames as input to produce frame-level features through a pre-trained encoder. The feature reduction and multi-scale inter-frame attention layers further process these features to output a representation for each video. Frame-to-frame cosine similarity is then calculated between the two videos. The Similarity Fusion Network processes the similarity vector through a series of 1D-convolution layers to generate a similarity score.
-        </h2>
+        </p>
       </div>
     </div>
   </div>
