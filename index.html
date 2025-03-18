@@ -186,8 +186,8 @@
       
       <!-- Sixth image -->
       <div class="mb-6">
-        <img src="static/images/expd.png" alt="Vision Dynamics Profiler architecture" style="width: 900px; height: auto; display: block; margin: 0 auto;"/>
-        <p style="text-align: justify; max-width: 900px; margin: 20px auto; font-size: 16px; line-height: 1.6;">
+        <img src="static/images/expd.png" alt="Vision Dynamics Profiler architecture" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <p style="text-align: justify; max-width: 1000px; margin: 20px auto; font-size: 16px; line-height: 1.6;">
        Success rate for three target tasks, showing the impact of increasing non-target training tasks on generalization. The dotted line represents the average success rate.
         </p>
       </div>
@@ -198,28 +198,25 @@
 </section>
 <!-- End image display -->
 
-  <!-- Image display side by side with text below -->
+ <!-- Image display side by side with text under the left image -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <!-- Images side by side -->
       <div class="columns is-centered">
-        <!-- Seventh image -->
+        <!-- Seventh image (left) -->
         <div class="column is-half">
           <img src="static/images/table2.png" alt="Ablation study results" style="width: 350px; height: auto; display: block; margin: 0 auto;"/>
+          <!-- Text under the left image -->
+          <p style="text-align: justify; max-width: 350px; margin: 20px auto; font-size: 14px; line-height: 1.6;">
+            We studied the impact of removing the domain augmentation <strong>G</strong>, the SFN component <strong>SFN</strong>, and the multi-scale inter-frame attention mechanism <strong>f<sub>a</sub></strong> on robot task success rates. The error bars indicate the standard deviation. Each variant of H2B was trained with an equal number of videos for six tasks, including three target tasks.
+          </p>
         </div>
 
-        <!-- Eighth image -->
+        <!-- Eighth image (right) -->
         <div class="column is-half">
           <img src="static/images/expf.png" alt="Task success rates" style="width: 350px; height: auto; display: block; margin: 0 auto;"/>
         </div>
-      </div>
-
-      <!-- Text below the images -->
-      <div class="has-text-centered" style="max-width: 800px; margin: 20px auto;">
-        <p style="text-align: justify; font-size: 14px; line-height: 1.6;">
-          We studied the impact of removing the domain augmentation <strong>G</strong>, the SFN component <strong>SFN</strong>, and the multi-scale inter-frame attention mechanism <strong>f<sub>a</sub></strong> on robot task success rates. The error bars indicate the standard deviation. Each variant of H2B was trained with an equal number of videos for six tasks, including three target tasks.
-        </p>
       </div>
     </div>
   </div>
