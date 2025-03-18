@@ -67,7 +67,7 @@
                     </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">College of Electrical Engineering<br>Zhejiang University, China <br>*Corresponding Author</span>
+                    <span class="author-block">Zhejiang University, China <br>*Corresponding Author</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -111,11 +111,11 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/Human2Bot.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+       H2B: Zero-shot Human-to-robot Task Transfer in Simulation and Real-World Environments 
       </h2>
     </div>
   </div>
@@ -130,7 +130,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Developing effective reward functions is crucial for robot learning, as they guide behavior and facilitate adaptation to human-like tasks. We present Human2Bot (H2B), advancing the learning of such a generalized multi-task reward function that can be used zero-shot to execute unknown tasks in unseen environments. H2B is a newly designed task similarity estimation model that is trained on a large dataset of human videos. The model determines whether two videos from different environments represent the same task. At test time, the model serves as a reward function, evaluating how closely a robot’s execution matches the human demonstration. While previous approaches necessitate robot-specific data to learn reward functions or policies, our method can learn without any robot datasets. To achieve generalization in robotic environments, we incorporate a domain augmentation process that generates synthetic videos with varied visual appearances resembling simulation environments, alongside a multi-scale inter-frame attention mechanism that aligns human and robot task understanding. Finally, H2B is integrated with Visual Model Predictive Control (VMPC) to perform manipulation tasks in simulation and on the xARM6 robot in real-world settings. Our approach outperforms previous methods in simulated and real-world environments trained solely on human data, eliminating the need for privileged robot datasets.
           </p>
         </div>
       </div>
